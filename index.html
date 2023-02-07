@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script>
+	var ws;
+	function websocket_init(){
+		ws = new WebSocket('ws://localhost:9980');
+	}
+</script>
+</head>
+
+<body onload = "websocket_init()">
+	<img src = "noise1" > </br>
+	<p>This is a TouchDesigner website</p>
+</body>
+</html>
